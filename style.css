@@ -7,14 +7,26 @@ body{
     display:flex;
     flex-direction: column;
     outline: dotted 1px red;
+    
 }
 
 .header{
+    background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     padding: 16px;
+
 }
 
 .sign-up{
     display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
 }

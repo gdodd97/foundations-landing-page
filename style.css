@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display:flex;
+    flex-direction: column;
+    outline: dotted 1px red;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.sign-up{
+    display:flex;
+}

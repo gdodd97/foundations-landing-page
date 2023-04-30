@@ -10,12 +10,27 @@ body{
     
 }
 
+
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     padding: 16px;
+
+}
+
+p{
+    flex-wrap: wrap;
+}
+
+
+li{
+    padding-right: 20px;
+}
+.right-links{
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -26,7 +41,29 @@ body{
     color: #F9FAF8;
 }
 
-p{
+.sign-up-left{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+
+.box{
+    display:flex;
+    width:100px;
+    height:100px;
+    border:solid 2px blue;
+    border-radius: 20px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-boxes{
+    display: flex;
+    flex-direction: row;
+    width:100px;
+    height:200px;
+    flex-wrap: wrap;
 }

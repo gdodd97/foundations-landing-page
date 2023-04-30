@@ -89,3 +89,8 @@ li{
 .content{
     width: 100%;
 }
+
+.upper-right{
+    display: flex;
+    flex-direction: row;
+}

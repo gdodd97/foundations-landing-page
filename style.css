@@ -7,6 +7,8 @@ body{
     display:flex;
     flex-direction: column;
     outline: dotted 1px red;
+    justify-content: center;
+    max-width: auto;
     
 }
 
@@ -15,11 +17,16 @@ body{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
-    padding: 16px;
-
+    justify-content: center;
+    min-width: 100%;
+    outline: solid 1px red;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 p{
     flex-wrap: wrap;
 }
@@ -31,7 +38,10 @@ li{
 .right-links{
     display: flex;
     flex-direction: row;
-
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    outline: solid 1px red;
 }
 
 .sign-up{
@@ -66,4 +76,16 @@ li{
     width:100px;
     height:200px;
     flex-wrap: wrap;
+}
+
+.padding{
+    max-width: 1200px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    outline: dotted 1px green;
+}
+
+.content{
+    width: 100%;
 }

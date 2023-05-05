@@ -18,12 +18,31 @@ body{
     display: flex;
     justify-content: center;
     min-width: 100%;
+    gap: 10px;
 }
 
 .center{
     display: flex;
     justify-content: center;
     width: 100%;
+}
+.logo{
+    font-size: 24px;
+}
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.info{
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+.quote{
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
+    display: flex;
+    max-width: 1000px;
 }
 p{
     flex-wrap: wrap;
@@ -66,7 +85,7 @@ li{
 
 .boxes{
     display: flex;
-    outline: dotted 1px red;
+
     gap: 40px;
     justify-content: center;
     align-items: center;
@@ -78,7 +97,6 @@ li{
     width:250px;
     height:250px;
     flex-wrap: wrap;
-    outline: dotted 1px red;
     justify-content: center;
     align-items: center;
 }
@@ -104,10 +122,23 @@ li{
     align-items: center;
     max-width: 1200px;
     min-width: 100%;
-    outline: dotted 1px red;
     flex-direction: column;
+}
+.text-box-three{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    min-width: 100%;
+    outline:dotted 1px red;
+    height:200px;
+    background-color: #E5E7EB;
 }
 img{
     width: 100%;
     height: 100%;
+}
+h2{
+    max-width: 1000px;
+    max-height: auto;
 }

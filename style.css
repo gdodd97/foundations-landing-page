@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body{
-    margin: 0;
-    overflow: hidden;
-    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -49,13 +49,10 @@ h1{
     color: #1F2937;
     display: flex;
     max-width: 1200px;
-    outline:dotted 1px red;
     align-items: center;
 
 }
-p{
-    flex-wrap: wrap;
-}
+
 
 
 li{
@@ -139,7 +136,6 @@ li{
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
-    outline:dotted 1px red;
     min-height:100%;
     background-color: #E5E7EB;
     min-width: 100%;
@@ -164,7 +160,6 @@ h2{
     max-width: 1200px;
     font-size: 24px;
     font-weight: bolder;
-    outline:dotted 1px red;
     min-width: 100%;
 
 }
@@ -176,4 +171,42 @@ h2{
     height: 10%;
     color: #F9FAF8;
     border: none;
+}
+
+.text-box-four{
+    display: flex;
+    flex-direction: column;
+}
+.blue-box{
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+    color: #fff;
+}
+.call{
+    text-align: left;
+    flex: 1;
+    
+}
+
+.bottom-button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    display:flex;
+    justify-content: center;
 }

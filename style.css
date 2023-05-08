@@ -11,6 +11,10 @@ body{
     
 }
 
+li{
+    list-style-type: none;
+}
+
 
 .header{
     background-color: #1F2937;
@@ -19,6 +23,7 @@ body{
     justify-content: center;
     min-width: 100%;
     gap: 10px;
+    
 }
 
 .center{
@@ -62,6 +67,7 @@ li{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .sign-up{
@@ -109,11 +115,11 @@ li{
     max-width: 1200px;
     display: flex;
     justify-content: start;
-    width: 100%;
 }
 
 .content{
     width: 100%;
+    max-width: 1200px;
 }
 
 .upper-right{
@@ -134,7 +140,7 @@ li{
     align-items: center;
     max-width: 1200px;
     outline:dotted 1px red;
-    height:auto;
+    min-height:100%;
     background-color: #E5E7EB;
     min-width: 100%;
 }
@@ -156,8 +162,18 @@ h2{
     display: flex;
     justify-content: flex-end;
     max-width: 1200px;
+    font-size: 24px;
+    font-weight: bolder;
     outline:dotted 1px red;
-    font-style: bold;
     min-width: 100%;
 
+}
+
+.top-button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 13%;
+    height: 10%;
+    color: #F9FAF8;
+    border: none;
 }
